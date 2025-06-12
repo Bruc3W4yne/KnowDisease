@@ -1,0 +1,18 @@
+# .streamlit/config.toml (Light Theme Option 2: Soft Blue/Grey Tint)
+
+[theme]
+primaryColor              = "#0E7CE7"   # accent – matches node-selection & panel border
+backgroundColor           = "#FFFFFF"
+secondaryBackgroundColor  = "#F5F7FA"   # light grey used for panel & metric cards
+textColor                 = "#1C1C1E"
+font                      = "Inter, sans-serif"
+
+
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/inter-v18-latin-regular.woff2"
+weight = 400
+style = "normal"
