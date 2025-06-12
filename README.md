@@ -7,8 +7,7 @@ torch + cuda is also preferred to be set to torchX+cu118 and the CUDA toolkit ne
 ```
 git clone https://github.com/Bruc3W4yne/KnowDisease.git
 cd KnowDisease
-pip install -r requirements.txt (this will take some time due to pytorch)
-Install KnowDisease package
+pip install -r requirements.txt
 pip install -e .
 ```
 
